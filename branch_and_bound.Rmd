@@ -1,0 +1,4 @@
+
+
+### Introduction to the Branch and Bound Problem
+* a) Readings for introduction and a salient example: http://nptel.ac.in/courses/111102012/28 

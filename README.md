@@ -9,3 +9,5 @@ I suggest that the course [Optimization Methods for Business Analytics](https://
 
 ## Reference notes 
 * NPTEL Courseware for Linear Programming in Operations Research: http://nptel.ac.in/courses/111102012/5
+* [Linear Programming: Notes for Undergraduate Level Courses](http://orfe.princeton.edu/~rvdb/307/lectures.html)
+* [Linear Programming: Notes for Graduate Level Courses](http://www.princeton.edu/~rvdb/542/lectures.html)

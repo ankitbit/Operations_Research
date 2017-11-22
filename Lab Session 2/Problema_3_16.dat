@@ -1,0 +1,9 @@
+set Pr:= art1 art2;
+set Re:= demanda presupuesto;
+
+param a: art1  art2:=
+demanda     1  1
+presupuesto 2  3;
+
+param c := art1 3 art2 1;  
+param b := demanda 200 presupuesto 500;

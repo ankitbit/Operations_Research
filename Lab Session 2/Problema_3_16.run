@@ -1,0 +1,22 @@
+reset;
+model Problema_3_16.mod;
+data Problema_3_16.dat;
+solve;
+
+display X, X.rc;
+display Recurso.lb, Recurso.body, Recurso.ub, Recurso;
+
+#sensibilidad
+#option solver cplex;
+option solver 'C:\Software\amplide\ampl\cplex';
+option cplex_options 'sensitivity';
+solve;
+
+display X.down, X.current, X.up;
+display Recurso.down, Recurso.current, Recurso.up;
+
+# 1. comprueba que el vector (200,09 maximiza los beneficios, 
+#    cuál es el beneficio máximo a  conseuir para la empresa?
+# 2. si c_2 cambia a 2, y a 4?
+# 3. para que valores de c_2 la solución anterior sigue siendo óptima?
+# Cómo afectaría la variación de la demanda a 250?

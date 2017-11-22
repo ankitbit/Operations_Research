@@ -1,0 +1,10 @@
+set Pr:= Yaveo Llum Argui;
+set Re:= ensamblaje empaquetado;
+
+param a: ensamblaje  empaquetado:=
+Yaveo  5  1
+Llum   4  4 
+Argui  2  3;
+
+param v := Yaveo 130 Llum 120 Argui 60 Zul 140.01;  #cuidado! beneficio neto. pvp-20*h(empaquetado) 
+param l := ensamblaje 500 empaquetado 200;

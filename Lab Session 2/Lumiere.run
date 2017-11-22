@@ -1,0 +1,15 @@
+reset;
+model Lumiere.mod;
+data Lumiere.dat;
+solve;
+
+display X, X.rc;
+display Recurso.lb, Recurso.body, Recurso.ub, Recurso;
+
+#option solver cplex;
+option solver 'C:\Software\amplide\ampl\cplex';
+option cplex_options 'sensitivity';
+solve;
+
+display X.down, X.current, X.up;
+display Recurso.down, Recurso.current, Recurso.up;
